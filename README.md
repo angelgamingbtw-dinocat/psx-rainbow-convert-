@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -288,7 +287,7 @@
             }
 
             setupCanvas() {
-                const maxSize = 400;
+                const maxSize = 420;
                 let { width, height } = this.image;
 
                 if (width > maxSize || height > maxSize) {
